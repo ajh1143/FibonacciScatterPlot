@@ -27,9 +27,10 @@ class FibonacciScatter(object):
            x.append(position)
            y.append(value)
         plt.scatter(x,y)
-        fit = np.polyfit(x, y, 1)
-        y1d = np.poly1d(fit)
-        plt.plot(x, y1d(x), "r--")
+        #Need to re-write for exponential trend fitting, this was linear.
+        #fit = np.polyfit(x, y, 1)
+        #y1d = np.poly1d(fit)
+        #plt.plot(x, y1d(x), "r--")
         plt.show()
 
 if __name__ == "__main__":
