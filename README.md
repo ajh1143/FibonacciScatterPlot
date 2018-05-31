@@ -4,5 +4,6 @@
 
 2) Create a scatter plot of the Fibonacci data with MatPlotLib
 
-Output Sample:
+Output Sample with 10 data points:
+
 <img src="https://github.com/ajh1143/ajh1143.github.io/blob/master/Images/Fibonacci/FibPlot.png" class="inline"/><br>
